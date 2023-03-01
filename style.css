@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-color:hsl(225, 100%, 94%) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    max-width: 90%;
+    /* border: 3px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 1rem;
+}
+.main-div{
+    max-width: 23rem;
+}
+img{
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+h1{
+    font-size: 1.4rem;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    padding: 1rem 1.5rem;
+}
+#details{
+    opacity: .7;
+}
+#price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 2rem; */
+    /* border: 2px solid yellowgreen; */
+    background-color:hsl(227, 100%, 95%) ;
+    padding:1rem;
+    width: 100%;
+    border-radius: .5rem;
+}
+#price img{
+    width: 16%;
+}
+#price h4{
+    width: 7rem;
+}
+a:hover{
+    color:  hsla(245, 75%, 52%, 0.793);
+}
+a{
+    margin-left: 3rem;
+}
+button{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    color: white;
+    border: 0;
+    border-radius: .8rem;
+
+}
+button:hover{
+    background-color: hsla(245, 75%, 52%, 0.793);
+}
+.btn{
+    width: 100%;
+}
+
